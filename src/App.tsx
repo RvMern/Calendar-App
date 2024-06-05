@@ -133,7 +133,7 @@ const App = () => {
             className="lg:max-w-md"
           />
         </LocalizationProvider>
-        <Box className="w-full mt-20 text-center lg:text-start">
+        <Box className="w-full mt-16 text-center lg:text-start">
           <Typography sx={{ my: 2, fontWeight: 600 }} variant="h5">
             Birthdays on {selectedDate}
           </Typography>
@@ -197,7 +197,7 @@ const App = () => {
             </Typography>
           )}
         </Box>
-        <Box className="w-full lg:w-1/2 mt-4 lg:mt-0  text-center lg:text-start">
+        <Box className="w-full mt-4 lg:mt-0  text-center lg:text-start">
           <Typography sx={{ mt: 2, mb: 1, fontWeight: 600 }} variant="h5">
             Favourite Birthdays
           </Typography>
